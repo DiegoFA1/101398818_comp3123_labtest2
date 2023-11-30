@@ -38,7 +38,7 @@ export default class Forecast extends Component {
     }
 
     getActualWeather(city) {
-        axios.get('http://api.openweathermap.org/data/2.5/weather?q=' + city + '&appid=2b1fd2d7f77ccf1b7de9b441571b39b8')
+        axios.get('http://api.openweathermap.org/data/2.5/weather?q=' + city + '&appid=22062437ae3b8754c56e31542ccf0df3')
         .then(response => {
             this.setState({
                 otherDays: [],
@@ -63,7 +63,7 @@ export default class Forecast extends Component {
 
     
     getOtherDaysWeather(city) {
-       axios.get('http://api.openweathermap.org/data/2.5/forecast?q=' + city + '&appid=2b1fd2d7f77ccf1b7de9b441571b39b8' + '&cnt=40')
+       axios.get('http://api.openweathermap.org/data/2.5/forecast?q=' + city + '&appid=22062437ae3b8754c56e31542ccf0df3' + '&cnt=40')
        .then(response => {
         const data = response.data
         const otherDays = []
