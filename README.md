@@ -13,3 +13,8 @@
 
 ### Vancouver Screen
 ![Screenshot](screenshots/Vancouver.png)
+
+### The Data Comes From two calls, one for the data of the actual day, the other one for a list of data of week
+![Screenshot](screenshots/PostMan_Weather.png)
+
+![Screenshot](screenshots/PostMan_Forecast.png)
